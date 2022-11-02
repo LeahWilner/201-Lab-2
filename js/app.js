@@ -38,6 +38,42 @@ if(answer1 === 'no' || answer1 === 'n' ){
 }
 
 
+let answer2;
+
+answer2 = prompt('Does Leah live in Iowa?');
+if(answer2 === 'yes' || answer2 === 'y' ){
+  alert('That\'s right!');
+} else {
+  alert('Leah lives in Iowa');
+}
+
+let answer3;
+
+answer3 = prompt('Does Leah have a dog');
+if(answer3 === 'no' || answer3 === 'n' ){
+  alert('That\'s right!');
+} else {
+  alert('Leah has a cat!');
+}
+
+
+let answer4;
+
+answer4 = prompt('Is Leah\'s favorite ice cream vanilla?');
+if(answer4 === 'no' || answer4 === 'n' ){
+  alert('That\'s right!');
+} else {
+  alert('Leah\'s favorite ice cream is blue moon');
+}
+
+let answer5;
+
+answer5 = prompt('Is Leah\'s favorite season summer?');
+if(answer5 === 'no' || answer5 === 'n' ){
+  alert('That\'s right!');
+} else {
+  alert('Leah\'s favorite season is fall');
+}
 //   let answer2;
 //   while(answer !== 'location'){
 //     answer = prompt('Does Leah live in Iowa?');
