@@ -23,7 +23,7 @@ console.log(lowerCaseName)
 // validate input with conditional logic
 
 // if (lowerCaseName === 'bob  || lowerCaseName === 'larry') {
-alert ('please answer yes or no, y or n');
+alert ('Surprise Quiz! Please enter answers as yes or no, y or n');
 // } else {
 
 // }
@@ -32,9 +32,9 @@ let answer1;
 
 answer1 = prompt('Did Leah study history?');
 if(answer1 === 'no' || answer1 === 'n' ){
-  alert('That\'s right!');
+  alert('That\'s right! Leah studied business.');
 } else {
-  alert('Leah studied  business');
+  alert('Incorrect. Leah studied business');
 }
 
 
@@ -42,18 +42,18 @@ let answer2;
 
 answer2 = prompt('Does Leah live in Iowa?');
 if(answer2 === 'yes' || answer2 === 'y' ){
-  alert('That\'s right!');
+  alert('That\'s right! Leah lives in Iowa');
 } else {
-  alert('Leah lives in Iowa');
+  alert('Incorrect. Leah lives in Iowa');
 }
 
 let answer3;
 
 answer3 = prompt('Does Leah have a dog');
 if(answer3 === 'no' || answer3 === 'n' ){
-  alert('That\'s right!');
+  alert('That\'s right! Leah has a cat, not a dog.');
 } else {
-  alert('Leah has a cat!');
+  alert('False. Leah has a cat!');
 }
 
 
