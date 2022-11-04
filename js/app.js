@@ -19,7 +19,7 @@ console.log('userName is: ', userName);
 // userName.toLowerCase
 
 let lowerCaseName = userName.toLowerCase();
-console.log(lowerCaseName)
+console.log(lowerCaseName);
 // validate input with conditional logic
 
 // if (lowerCaseName === 'bob  || lowerCaseName === 'larry') {
@@ -28,52 +28,74 @@ alert ('Surprise Quiz! Please enter answers as yes or no, y or n');
 
 // }
 
-let answer1;
+// let answer1;
 
-answer1 = prompt('Did Leah study history?');
-if(answer1 === 'no' || answer1 === 'n' ){
-  alert('That\'s right! Leah studied business.');
-} else {
-  alert('Incorrect. Leah studied business');
+// answer1 = prompt('Did Leah study history?');
+// if(answer1 === 'no' || answer1 === 'n' ){
+//   alert('That\'s right! Leah studied business.');
+// } else {
+//   alert('Incorrect. Leah studied business');
+// }
+
+
+// let answer2;
+
+// answer2 = prompt('Does Leah live in Iowa?');
+// if(answer2 === 'yes' || answer2 === 'y' ){
+//   alert('That\'s right! Leah lives in Iowa');
+// } else {
+//   alert('Incorrect. Leah lives in Iowa');
+// }
+
+// let answer3;
+
+// answer3 = prompt('Does Leah have a dog');
+// if(answer3 === 'no' || answer3 === 'n' ){
+//   alert('That\'s right! Leah has a cat, not a dog.');
+// } else {
+//   alert('False. Leah has a cat!');
+// }
+
+
+// let answer4;
+
+// answer4 = prompt('Is Leah\'s favorite ice cream vanilla?');
+// if(answer4 === 'no' || answer4 === 'n' ){
+//   alert('That\'s right!');
+// } else {
+//   alert('Leah\'s favorite ice cream is blue moon');
+// }
+
+// let answer5;
+
+// answer5 = prompt('Is Leah\'s favorite season summer?');
+// if(answer5 === 'no' || answer5 === 'n' ){
+//   alert('That\'s right!');
+// } else {
+//   alert('Leah\'s favorite season is fall');
+// }
+
+let answer6;
+
+answer6 = parseInt(prompt('Guess a number between 1-10'));
+console.log(typeof(answer6));
+if(answer6 === 7)
+{
+  alert('You\'re right!');
+  // add points
+} else if(answer6 > 7 ){
+  alert ('Too high');
+  //count attempt
+} else if(answer6 < 7 ){
+  alert ('Too low');
+  //count attempt
 }
 
+else {
+  alert('Try again');
 
-let answer2;
-
-answer2 = prompt('Does Leah live in Iowa?');
-if(answer2 === 'yes' || answer2 === 'y' ){
-  alert('That\'s right! Leah lives in Iowa');
-} else {
-  alert('Incorrect. Leah lives in Iowa');
 }
 
-let answer3;
-
-answer3 = prompt('Does Leah have a dog');
-if(answer3 === 'no' || answer3 === 'n' ){
-  alert('That\'s right! Leah has a cat, not a dog.');
-} else {
-  alert('False. Leah has a cat!');
-}
-
-
-let answer4;
-
-answer4 = prompt('Is Leah\'s favorite ice cream vanilla?');
-if(answer4 === 'no' || answer4 === 'n' ){
-  alert('That\'s right!');
-} else {
-  alert('Leah\'s favorite ice cream is blue moon');
-}
-
-let answer5;
-
-answer5 = prompt('Is Leah\'s favorite season summer?');
-if(answer5 === 'no' || answer5 === 'n' ){
-  alert('That\'s right!');
-} else {
-  alert('Leah\'s favorite season is fall');
-}
 //   let answer2;
 //   while(answer !== 'location'){
 //     answer = prompt('Does Leah live in Iowa?');
