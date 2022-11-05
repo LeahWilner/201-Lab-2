@@ -2,19 +2,16 @@
 console.log('Hello from the js file');
 
 // prompt user for input
-
-let userName = prompt('what is your name?');
+let userName = prompt('What is your name?');
 console.log('userName is: ', userName);
 
-// let answer;
-// while(answer !== 'userName'){
-//   answer = prompt('Please enter your name');
-//   if(answer !== 'userName'){
-//     alert('Try again!');
-//   } else {
-//     alert('Your name is ', userName);
-//   }
-// }
+
+while(!userName){
+  userName = prompt('Please enter your name');
+  if(userName){
+    alert('Your name is ' + userName);
+  }
+}
 
 // userName.toLowerCase
 
@@ -23,7 +20,7 @@ console.log(lowerCaseName);
 // validate input with conditional logic
 
 // if (lowerCaseName === 'bob  || lowerCaseName === 'larry') {
-alert ('Surprise Quiz! Please enter answers as yes or no, y or n');
+// alert ('Surprise Quiz! Please enter answers as yes or no, y or n');
 // } else {
 
 // }
@@ -75,26 +72,26 @@ alert ('Surprise Quiz! Please enter answers as yes or no, y or n');
 //   alert('Leah\'s favorite season is fall');
 // }
 
-let answer6;
+// let answer6;
 
-answer6 = parseInt(prompt('Guess a number between 1-10'));
-console.log(typeof(answer6));
-if(answer6 === 7)
-{
-  alert('You\'re right!');
-  // add points
-} else if(answer6 > 7 ){
-  alert ('Too high');
-  //count attempt
-} else if(answer6 < 7 ){
-  alert ('Too low');
-  //count attempt
-}
+// answer6 = parseInt(prompt('Guess a number between 1-10'));
+// console.log(typeof(answer6));
+// if(answer6 === 7)
+// {
+//   alert('You\'re right!');
+//   // add points
+// } else if(answer6 > 7 ){
+//   alert ('Too high');
+//   //count attempt
+// } else if(answer6 < 7 ){
+//   alert ('Too low');
+//   //count attempt
+// }
 
-else {
-  alert('Try again');
+// else {
+//   alert('Try again');
 
-}
+// }
 
 //   let answer2;
 //   while(answer !== 'location'){
