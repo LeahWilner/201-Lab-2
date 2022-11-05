@@ -152,3 +152,11 @@ else {
 // // Ask the user their name through a prompt()
 // // Display that name back to the user through a custom greeting welcoming them to your site.
 // // Display the user’s name back to them in your final message to the user.
+
+ var gopher = 1;
+ if (gopher < 10) 
+    console.log(gopher);
+ } else {
+   console.log('potato');
+ }
+ 
