@@ -153,10 +153,22 @@ else {
 // // Display that name back to the user through a custom greeting welcoming them to your site.
 // // Display the user’s name back to them in your final message to the user.
 
- var gopher = 1;
- if (gopher < 10) 
-    console.log(gopher);
- } else {
-   console.log('potato');
- }
- 
+
+
+
+
+
+//KL additions for lab 4
+
+function question1(){
+  let answer1;
+
+  answer1 = prompt('Did Leah study history?');
+  if(answer1 === 'no' || answer1 === 'n' ){
+    alert('That\'s right! Leah studied business.');
+  } else {
+    alert('Incorrect. Leah studied business');
+  }
+}
+
+question1();
