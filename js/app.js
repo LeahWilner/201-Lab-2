@@ -105,3 +105,55 @@ while(attempts > 0){
 
 
 console.log('user points total:', userPoints);
+
+
+
+
+// As a user, I would like to guess the answer to a question that could have many possibilities so that I can have fun with with a guessing game.
+// Add a 7th question that has multiple possible correct answers that are stored in an array.
+// Give the user 6 attempts to guess the correct answer.
+// The guesses will end once the user guesses a correct answer or they run out of attempts.
+// Display all the possible correct answers to the user.
+// Consider using a loop of some sort for this question.
+
+function questionSevenExample(){
+  console.log('inside the function');
+  // correct answers that are stored in an array.
+  let favoriteFoods = ['pizza', 'tacos','alfraido','ice cream', 'chocolate'];
+  // Give the user 6 attempts to guess the correct answer.
+  let attempts = 0;
+  let userTrys = 0;
+
+
+
+  while(attempts !== 6){
+    //I would like to guess the answer to a question
+    let userResponse = prompt('What are some of my favorite foods?');
+    let userInput = userResponse.toLowerCase().trim();
+    console.log('user input: ', userInput);
+
+    if(favoriteFoods.indexOf(userInput) >= 0){
+      alert('Good Guess ' + userResponse + ' is a favorite food.');
+      //increment the attempts
+      attempts = 6;
+      userTrys++;
+      userPoints++;
+      break;
+      //finish the round
+    } else {
+      alert('Wrong I dont like that food.');
+      attempts++;
+    }
+    console.log('attempts after else statement',attempts);
+
+  } // while loop
+
+  alert('all my favorites are ' + favoriteFoods.join(', '));
+  //is lets use the DOM to see the results on the actual html page.
+  let sectionHTML = document.getElementById('favoriteFoods');
+  let message =   'You got ' + userPoints + ' points after ' + userTrys + ' attempts';
+  sectionHTML.innerHTML = message;
+
+} // function
+
+questionSevenExample();
