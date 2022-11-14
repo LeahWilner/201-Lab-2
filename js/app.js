@@ -156,4 +156,36 @@ function questionSevenExample(){
 
 } // function
 
-questionSevenExample();
+// questionSevenExample();
+
+// // Question 7
+// let userPoints = 0;
+
+// function getCookieInfo() {
+//   let cookieInfo = ['chocolate chip','sugar','monster','snickerdoodle','shortbread'];
+//   console.log('did we get cookies',cookieInfo);
+
+//   let attempts = 0;
+//   let correctAnswer = false;
+//   while (attempts !== 6 && correctAnswer === false) {
+
+//     let cookieInput = prompt('Cookies are a sweet treat. Guess one of my favorite cookie flavors.');
+//     let cookieInputToLowerCase = cookieInput.toLowerCase();
+//     if (cookieInfo.indexOf(cookieInputToLowerCase) >= 0) {
+//       userPoints++;
+//       console.log('user entered cookie flavor ', cookieInput);
+//       correctAnswer = true;
+//       alert(
+//         'Correct, a ' +
+//           cookieInput +
+//           ' cookie is one of my favorite cookies to eat. Chocolate chip, sugar, monster, snickerdoodle and shortbread cookies are all great flavors.'
+//       );
+//       attempts = 6;
+//     } else {
+//       alert('That is not one of my favorites.');
+//     }
+//     attempts++;
+//     console.log('Logging cookie answer', cookieInfo);
+//     console.log('Logging cookie answer', userPoints);
+//   }
+// }
